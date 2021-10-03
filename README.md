@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To run this on your own system, download data from [here]() and paste it inside _data_ folder then select the query image, **path/query.jpg**, and run following code-block:
+To run this on your own system, download data from [here](https://drive.google.com/drive/folders/1OjoTr792sA6_wh1OarYulhdaln3RNBC9?usp=sharing) and paste it inside _data_ folder then select the query image, **path/query.jpg**, and run following code-block:
 ```
 python main.py --input_image path/query.jpg
 ```
@@ -22,7 +22,7 @@ python main.py --input_image path/query.jpg --device cuda
 
 This project creates embedding only the first time, so subsequent runs would be considerably faster. It automatically checks for changes in dataset to create new embeddings if required or if other model is used instead of Inception network.
 
-If you want to use your own images, specify your folder path **path/folder** by using `img_folder`:
+If you want to use your own images as dataset, specify your folder path **path/folder** by using `img_folder`:
 ```
 python main.py --input_image path/query.jpg --img_folder path/folder
 ```
@@ -33,3 +33,10 @@ python main.py --input_image path/query.jpg --model resnet18
 
 ## Results
 Here are few outputs of similar images when passed a query image:
+![1](/data/results/13589722RJD.jpg) ![2](/data/results/35468716LXD.jpg) ![3](/data/results/nearestneigh.jpg) ![4](/data/results/13586231PAR.jpg)
+![5](/data/results/35464472VTD.jpg)
+
+## Additional approaches
+
+Although this project generated satisfactory results using pre-trained networks, but as images get more complex, we might need to move-on to a network trained on our dataset or we can also train an _Encoder/U-net_ and use its bottleneck layer as feature generator.
+I also tried this with `NearestNeighbour` module of `sklearn` and got pretty good rsults. This is available in _nearest.ipynb_ for checking but the directories need to be changed accordingly as this was my first rough attempt at this problem.
