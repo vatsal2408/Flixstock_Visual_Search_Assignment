@@ -31,5 +31,5 @@ If you want to experiment with models other than Inception V3, you can use `mode
 python main.py --input_image path/query.jpg --model resnet18
 ```
 
-##Results
+## Results
 Here are few outputs of similar images when passed a query image:
