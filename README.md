@@ -20,14 +20,14 @@ To run this on your own system, download folder from [here](https://drive.google
 ```
 python main.py --input_image path/query.jpg
 ```
-To speed-up creation of embeddings, you can use your gpu, if available, by using `device` (default is _cpu_):
+To speed-up creation of embeddings, you can use your gpu, if available, by passing _cuda_ in `device` (default is _cpu_):
 ```
 python main.py --input_image path/query.jpg --device cuda
 ```
 
 This project creates embedding only the first time, so subsequent runs would be considerably faster. It automatically checks for changes in dataset to create new embeddings if required or if other model is used instead of Inception network.
 
-If you want to use your own images as dataset, specify your folder path **path/folder** by using `img_folder`:
+If you want to use your own images as dataset, specify your folder path: **path/folder** by passing into `img_folder`:
 ```
 python main.py --input_image path/query.jpg --img_folder path/folder
 ```
@@ -37,7 +37,8 @@ python main.py --input_image path/query.jpg --model resnet18
 ```
 
 ## Results
-Here are few outputs of similar images when passed a query image:
+### Here are few outputs of similar images when passed a query image:
+
 ![1](/data/results/13589722RJD.jpg) ![2](/data/results/35468716LXD.jpg) ![3](/data/results/nearestneigh.jpg) ![4](/data/results/13586231PAR.jpg)
 ![5](/data/results/35464472VTD.jpg)
 
