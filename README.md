@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To run this on your own system, download dataset from [here](https://drive.google.com/drive/folders/1OjoTr792sA6_wh1OarYulhdaln3RNBC9?usp=sharing) and extract the **folder** in _/data_, then select the query image, **path/query.jpg**, and run following code-block:
+To run this on your own system, download dataset from [here](https://drive.google.com/drive/folders/1OjoTr792sA6_wh1OarYulhdaln3RNBC9?usp=sharing) and extract the **folder** in _/data_, then select the query image, _**path/query.jpg**_, and run following code-block:
 ```
 python main.py --input_image path/query.jpg
 ```
@@ -27,7 +27,7 @@ python main.py --input_image path/query.jpg --device cuda
 
 This project creates embedding only the first time, so subsequent runs would be considerably faster. It automatically checks for changes in dataset to create new embeddings if required or if other model is used instead of Inception network.
 
-If you want to use your own images as dataset, specify your folder path: **path/folder** by passing into `img_folder`:
+If you want to use your own images as dataset, specify your folder path: _**path/folder**_ by passing into `img_folder`:
 ```
 python main.py --input_image path/query.jpg --img_folder path/folder
 ```
