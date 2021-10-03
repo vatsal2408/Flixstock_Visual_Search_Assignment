@@ -5,7 +5,7 @@ from termcolor import colored
 from torchvision import transforms
 from utilities.utils import *
 from embedding import *
-from feature_extractor import *
+from pretrained_model import *
 
 
 def load_embed(args, emb_path, txtfile, embed_flag):

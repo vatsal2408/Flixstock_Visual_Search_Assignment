@@ -1,13 +1,13 @@
 import os
 import torch
 from torchvision import transforms
-from feature_extractor import Model
+from pretrained_model import Model
 from Dataset import MyDataset
 
 
 def create_embed(args, txtfile):
     '''
-    Creates the featured embeddings for image dataset
+    Creates the feature embeddings for image dataset
     '''
 
     # preprocess the data for model
