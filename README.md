@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Usage
 To run this on your own system, download dataset from [here](https://drive.google.com/drive/folders/1OjoTr792sA6_wh1OarYulhdaln3RNBC9?usp=sharing) and extract the **folder** in _/data_, then select the query image, _**path/query.jpg**_, and run following code-block:
-```
+```python
 python main.py --input_image path/query.jpg
 ```
 To speed-up creation of embeddings, you can use your gpu, if available, by passing _cuda_ in `device` (default is _cpu_):
