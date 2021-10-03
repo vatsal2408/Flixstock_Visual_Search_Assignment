@@ -37,7 +37,7 @@ python main.py --input_image path/query.jpg --model resnet18
 ```
 
 ## Results
-### Here are few outputs of similar images when passed a query image:
+### Here are few example output when passed a query image:
 
 ![1](/data/results/13589722RJD.jpg) ![2](/data/results/35468716LXD.jpg) ![3](/data/results/nearestneigh.jpg) ![4](/data/results/13586231PAR.jpg)
 ![5](/data/results/35464472VTD.jpg)
