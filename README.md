@@ -45,4 +45,4 @@ python main.py --input_image path/query.jpg --model resnet18
 ## Additional approaches
 
 Although this project generated satisfactory results using pre-trained networks, but as images get more complex, we might need to move-on to a network trained on our dataset or we can also train an _Encoder/U-net_ and use its bottleneck layer as feature generator.
-I also tried this with `NearestNeighbour` module of `sklearn` and got pretty good rsults. This is available in _nearest.ipynb_ for checking but the directories need to be changed accordingly as this was my first rough attempt at this problem.
+I also tried this with `NearestNeighbour` module of `sklearn` and got pretty good rsults. This is available in _nearest.ipynb_ for checking but the directory paths need to be changed accordingly as this was my first rough attempt at this problem.
