@@ -10,7 +10,7 @@ This project aims to find garments of similar pattern or type given a query imag
 To extract features, it primarily uses Google's _Inception-V3_ in evaluation mode but other options are available for experimentation.
 
 ## Prerequisites
-To install the required packages/modules, run below code:
+To install the required packages/modules, run below code-block:
 ```
 pip install -r requirements.txt
 ```
