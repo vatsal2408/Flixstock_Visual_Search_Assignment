@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To run this on your own system, download data folder from [here](https://drive.google.com/drive/folders/1OjoTr792sA6_wh1OarYulhdaln3RNBC9?usp=sharing) and paste it inside _data_ folder then select the query image, **path/query.jpg**, and run following code-block:
+To run this on your own system, download folder from [here](https://drive.google.com/drive/folders/1OjoTr792sA6_wh1OarYulhdaln3RNBC9?usp=sharing) and paste it inside _/data_ then select the query image, **path/query.jpg**, and run following code-block:
 ```
 python main.py --input_image path/query.jpg
 ```
