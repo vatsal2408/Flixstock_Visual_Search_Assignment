@@ -1,4 +1,4 @@
-# Flixstock_Visual_Search_Assignment
+# Flixstock Visual Search Assignment
 ## About the Project
 We often see online shopping sites suggesting clothes based on our preference of design and type.
 This project aims to find garments of similar pattern or type given a query image by matching features of query image with the dataset.
