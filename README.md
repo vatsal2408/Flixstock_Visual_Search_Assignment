@@ -1,5 +1,10 @@
 # Flixstock Visual Search Assignment
 ## About the Project
+
+<p align="center">
+    <img src="/data/Screenshot (48).png">
+</p>
+
 We often see online shopping sites suggesting clothes based on our preference of design and type.
 This project aims to find garments of similar pattern or type given a query image by matching features of query image with the dataset.
 To extract features, it primarily uses Google's _Inception-V3_ in evaluation mode but other options are available for experimentation.
