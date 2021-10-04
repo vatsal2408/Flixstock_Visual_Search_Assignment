@@ -2,7 +2,7 @@
 ## About the Project
 
 <p align="center">
-    <img src="/data/Screenshot (48).png">
+    <img src="/rough/Screenshot (48).png">
 </p>
 
 We often see online shopping sites suggesting clothes based on our preference of design and type.
@@ -48,6 +48,6 @@ python main.py --input_image path/query.jpg --model resnet18
 
 Although this project generated satisfactory results using pre-trained networks, but as images get more complex, we might need to move-on to a network trained on our dataset or we can also train an _Encoder/U-net_ and use it as a feature generator.
 
-I also tried this with `NearestNeighbour` module of `sklearn` and got pretty good rsults. This is available in _nearest.ipynb_ for checking but the directory paths need to be changed accordingly as this was my first rough attempt at this problem.
+I also tried this with `NearestNeighbour` module of `sklearn` and got pretty good rsults. This is available in _rough/nearest.ipynb_ for checking but the directory paths need to be changed accordingly as this was my first rough attempt at this problem.
 
 I believe apart from euclidian and cosine distance, Earth mover's distance might also give good results but I couldn't try that approach in the given timeframe and will update this repo if it gives promising results as well.
