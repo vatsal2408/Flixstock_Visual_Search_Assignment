@@ -25,7 +25,7 @@ To speed-up creation of embeddings, you can use your gpu, if available, by passi
 python main.py --input_image path/query.jpg --device cuda
 ```
 
->In, this project, we create embedding only the first time, so subsequent runs would be considerably faster. It automatically checks for changes in dataset to create new embeddings if required or if other model is used instead of Inception network.
+>In, this project, we create embeddings only the first time, so subsequent runs would be considerably faster. It automatically checks for changes in dataset to create new embeddings if required or if other model is used instead of Inception network.
 
 If you want to use your own images as dataset, specify your folder path: _**path/folder**_ by passing into `img_folder`:
 ```
